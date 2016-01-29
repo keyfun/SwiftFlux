@@ -37,5 +37,5 @@ Pod::Spec.new do |s|
     LICENSE
   }
 
-  s.dependency "Result", "~> 0.6-beta.6"
+  s.dependency "Result", "~> 1.0"
 end
