@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FD2AD4E1C83EEF700F89D8C /* StoreExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD2AD4D1C83EEF700F89D8C /* StoreExtension.swift */; };
 		CA1C3FEC1B791CA20048126F /* ActionCreatorSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1C3FEA1B7919390048126F /* ActionCreatorSpec.swift */; };
 		CA1C3FED1B791CA30048126F /* ActionCreatorSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1C3FEA1B7919390048126F /* ActionCreatorSpec.swift */; };
 		CA37943C1B6F65BA000AE5F2 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CAEF5DB51B6D3951005684E2 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -135,6 +136,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3FD2AD4D1C83EEF700F89D8C /* StoreExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreExtension.swift; sourceTree = "<group>"; };
 		CA1C3FEA1B7919390048126F /* ActionCreatorSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionCreatorSpec.swift; sourceTree = "<group>"; };
 		CA3159FB1B6D2FB5004A8F2C /* SwiftFlux.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftFlux.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA315A051B6D2FB5004A8F2C /* SwiftFluxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftFluxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -320,6 +322,7 @@
 				CACC48111B6B9E4900FDF2BF /* Dispatcher.swift */,
 				CACC48131B6B9E8000FDF2BF /* Action.swift */,
 				CACC48151B6BA00D00FDF2BF /* Store.swift */,
+				3FD2AD4D1C83EEF700F89D8C /* StoreExtension.swift */,
 				CAEAF03A1BFB97CC0021CC66 /* Utils */,
 				CACC47F81B6B9DDA00FDF2BF /* Supporting Files */,
 			);
@@ -698,6 +701,7 @@
 				CAFDEA171BFF59E000AF7A09 /* StoreBase.swift in Sources */,
 				CACC48141B6B9E8000FDF2BF /* Action.swift in Sources */,
 				CACC48121B6B9E4900FDF2BF /* Dispatcher.swift in Sources */,
+				3FD2AD4E1C83EEF700F89D8C /* StoreExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
