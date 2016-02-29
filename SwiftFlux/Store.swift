@@ -13,8 +13,8 @@ public protocol Store {
 }
 
 public class EventEmitter<T: Store> {
-    private var eventListeners: Dictionary<String, AnyObject> = [:]
-    private var lastListenerIdentifier = 0
+    internal var eventListeners: Dictionary<String, AnyObject> = [:]
+    internal var lastListenerIdentifier = 0
 
     public init() {}
     deinit {
